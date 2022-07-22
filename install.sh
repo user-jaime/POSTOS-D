@@ -57,6 +57,10 @@ echo '' >> preferences
 echo 'Package: gjs' >> preferences
 echo 'Pin: release a=unstable' >> preferences
 echo 'Pin-Priority: 1000' >> preferences
+echo '' >> preferences
+echo 'Package: curl' >> preferences
+echo 'Pin: release a=unstable' >> preferences
+echo 'Pin-Priority: 1000' >> preferences
 
 cd
 
@@ -77,7 +81,7 @@ fi
 $insa curl
 $insa firefox-esr
 $insa ffmpeg
-$insa git
+#$insa git
 $insa gnome-shell-extensions
 $insa libreoffice-writer
 $insa neofetch
