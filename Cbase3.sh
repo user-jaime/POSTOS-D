@@ -37,7 +37,7 @@ sleep 3
 rm -r veracrypt-1.25.9-Debian-11-amd64.deb
 apt --fix-broken install
 
-usb="/media/kodi/jaime2/POSTOS/Ddot"
+usb="/media/kodi/jaime2/POSTOS/DXdot"
 dl="rsync -avh --delete"
 
 $dl $usb/.cache/ ~/.cache
